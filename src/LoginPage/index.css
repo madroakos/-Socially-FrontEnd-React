@@ -1,0 +1,100 @@
+.wholePageDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: rgb(242,79,79);
+    background: -moz-linear-gradient(0deg, rgba(242,79,79,1) 0%, rgba(236,209,212,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(242,79,79,1) 0%, rgba(236,209,212,1) 100%);
+    background: linear-gradient(0deg, rgba(242,79,79,1) 0%, rgba(236,209,212,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f24f4f",endColorstr="#ecd1d4",GradientType=1);
+    position: relative;
+}
+
+.infoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 30;
+}
+
+.loginDiv {
+    flex: 70;
+}
+
+#loginLogo {
+    max-width: 100px;
+    width: 20vw;
+    height: auto;
+    margin: 20px;
+}
+
+#loginForm {
+    margin: 0 auto;
+    background-color: #eccdd0;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 90vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#loginForm p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+#loginForm label {
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+#username, #password, #email, #passwordAgain {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline-color: royalblue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#submitButton {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.changeFormButtonDiv {
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+}
+
+#changeFormButton {
+    font-weight: bold;
+    background: none;
+    border: none;
+}

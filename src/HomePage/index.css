@@ -1,0 +1,38 @@
+.homePageDiv {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.searchBarLabel {
+    position: relative;
+}
+
+
+
+.searchBarLabel input {
+    display: flex;
+    background-color: lightgrey;
+    border-width: 0;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+}
+
+.searchBarLabel input:focus {
+    outline: none;
+    border-color: red;
+    border-width: 2px;
+    background-color: #f0f2f5;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.resultDiv {
+    position: relative;
+    display: block;
+}
+
+
+
+
