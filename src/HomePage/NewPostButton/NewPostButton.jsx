@@ -25,6 +25,7 @@ const NewPostButton = () => {
             .then(response => {
                 if (response.ok) {
                     console.log('Post saved successfully');
+                    window.location.reload();
                 } else {
                     throw new Error('Error saving post');
                 }
