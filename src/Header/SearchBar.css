@@ -5,7 +5,8 @@
 .dropdown-content {
     z-index: 1;
     position: absolute;
-    width: 300px;
+    min-width: 100px;
+    max-width: 300px;
     background-color: #f6f6f6;
     border: 1px solid #ddd;
     border-radius: 20px;
