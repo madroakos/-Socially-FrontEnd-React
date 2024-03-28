@@ -40,6 +40,12 @@ const Posts = ({ username }) => {
 
     function showPosts() {
         return (
+            <>
+                {username &&
+                    <div className='user'>
+                        <p>{username}</p>
+                    </div>
+                    }
             <div className='postsDiv'>
                 {posts.map((post) => (
                     <div className="post" key={post.id}>
@@ -53,6 +59,7 @@ const Posts = ({ username }) => {
                     </div>
                 ))}
             </div>
+            </>
         )}
 
     function showEmptyPosts() {
